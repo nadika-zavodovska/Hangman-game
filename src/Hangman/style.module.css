@@ -1,0 +1,24 @@
+.buttons {
+  width: 23%;
+  margin-bottom: 30px;
+}
+.buttonRestart {
+  width: 150px;
+  height: 50px;
+  border-radius: 2px;
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+  background-color: rgb(255, 255, 255);
+}
+.buttonRestart:hover {
+  background-color: #3cc9e5;
+  transition: 1s;
+  transform: scale(1.1);
+}
+
+@media (max-width: 500px) {
+  .buttons {
+    width: 70%;
+  }
+}
