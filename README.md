@@ -23,7 +23,7 @@ Hangman is a classic word-guessing game where one player thinks of a word and th
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Instalation
+## Installation
 For instalation you need to download the repository
 
 In the project directory, you can run:
