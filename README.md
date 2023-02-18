@@ -2,7 +2,7 @@
 
 Hangman is a classic word-guessing game where one player thinks of a word and the other player has to guess the word by suggesting letters. For each incorrect guess, a part of a "hangman" is drawn, and if the player fails to guess the word before the "hangman" is completed, they lose the game. This implementation of the game is in React and uses an array of words to randomly choose a word for the player to guess. The player's guesses are tracked, and the game ends when the player has either correctly guessed the word or the "hangman" is fully drawn.
 
-## Rules of Hangman game
+## Rules of the Hangman game
 
 * The computer selects a word or phrase, and displays a row of dashes representing each letter of the word or phrase.
 
@@ -16,7 +16,7 @@ Hangman is a classic word-guessing game where one player thinks of a word and th
 
 * The player wins if they guess the word or phrase correctly before the hanging man is fully drawn, and loses if the hanging man is fully drawn before they guess the word or phrase.
 
-## Screenshot of Hangman game
+## Screenshot of the Hangman game
 ![Hangman game](hangman_game.jpg)
 
 # Getting Started with Create React App
