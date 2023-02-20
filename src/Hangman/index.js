@@ -4,6 +4,7 @@ import styles from "./style.module.css";
 import Buttons from "../Components/Buttons";
 import Images from "../Components/Images";
 import Result from "../Components/Result";
+import Rules from "../Components/Rules";
 
 // List of possible words to be guessed
 const words = [
@@ -90,6 +91,8 @@ const Hangman = () => {
   // Render the Hangman component
   return (
     <>
+      <h1>Hangman</h1>
+      <Rules />
       <Images index={wrongGuesses} gameOver={gameOver} alt="Hangman" />
       <p>Guess the word:</p>
       <Result answer={answer} guessedLetters={guessedLetters} />

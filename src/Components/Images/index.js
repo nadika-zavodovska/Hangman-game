@@ -31,10 +31,9 @@ const Images = (props) => {
     image11,
   ];
 
-  // Render an <h1> element and an <img> element, but only render the <img> element if gameOver is false
+  // Render an <img> element, but only render the <img> element if gameOver is false
   return (
     <>
-      <h1>Hangman</h1>
       {!gameOver && <img src={imageSources[index]} alt={props.alt} />}
     </>
   );
