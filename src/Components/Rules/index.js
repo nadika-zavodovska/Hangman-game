@@ -1,4 +1,4 @@
-// Import the styles module from the style.module.css file, and import image files from the images folder
+// Import the styles module from the style.module.css file.
 import styles from "./style.module.css";
 
 // Define a functional component called Rules
