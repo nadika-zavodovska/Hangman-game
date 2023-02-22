@@ -19,7 +19,7 @@ Hangman is a classic word-guessing game where one player thinks of a word and th
 ## Screenshot of the Hangman game
 ![Hangman game](hangman_game.jpg)
 
-# Launch the Hangman game application
+## Launch the Hangman game application
 
 1. Download project from repository.
 2. Install dependences by runing command  `npm install`.
